@@ -1,7 +1,7 @@
 const routes = (app) => {
     app.route('/')
     .get ((req,res) => {
-        res.send('This is the Get Method')
+        res.send('This is the Get Method.Welcome to the world of coding.')
         })
         
         .post ((req,res) => {
